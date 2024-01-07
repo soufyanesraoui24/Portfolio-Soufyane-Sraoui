@@ -7,7 +7,11 @@ import {
   // AiOutlineTwitter,
   // AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaSnapchat,FaTwitter, FaFacebook } from "react-icons/fa";
+
+
+
+
 
 function Home2() {
   return (
@@ -19,24 +23,21 @@ function Home2() {
               Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              Since I was a kid, I have loved and excelled in programming, mathematics, natural sciences, data analysis, electronics, and problem solving.
+            "Hello, I'm Soufyane Sraoui, a passionate MERN stack developer with a focus on crafting 
+            robust and scalable web applications. My expertise spans the entire development process, 
+            from designing and implementing databases with<b className="purple"> MongoDB</b> to creating efficient server-side
+             applications using <b className="purple">Node.js and Express.js</b> . On the front end, I excel in building dynamic
+              and interactive user interfaces with <b className="purple">React.js</b> . With a keen eye for detail and a commitment
+               to staying current with emerging technologies, I bring a comprehensive skill set to
+                deliver seamless and user-friendly web solutions. Let's innovate and build together!"
+
               <br />
-              <br />I am experienced in programming languages including
-              <i>
-                <b className="purple"> Java, Python, C++, JavaScript</b>
-              </i>
-              , and SQL dialects including
-              <i>
-                <b className="purple"> SQL Server, Oracle PL/SQL, PostgreSQL, and MySQL</b>.
-              </i>
+             
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">...placeholder </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  ....placeholder
+                <b className="purple">application based on AI
                 </b>
               </i>
               <br />
@@ -67,7 +68,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/beebus"
+                  href="https://github.com/soufyanesraoui24"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,12 +78,42 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/michael-beebower/"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaFacebook />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://linkedin.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.snapchat.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaSnapchat />
                 </a>
               </li>
             </ul>

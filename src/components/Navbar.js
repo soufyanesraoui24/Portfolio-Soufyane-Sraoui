@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logo} className="img-fluid logo" alt="brand" style={{ width: "100px" , height:"100px"}} />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/beebus/Portfolio"
+                href="https://github.com/soufyanesraoui24/Portfolio-Soufyane-Sraoui"
                 target="_blank"
                 className="fork-btn-inner"
               >
